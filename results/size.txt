@@ -1,0 +1,10 @@
+   text	   data	    bss	    dec	    hex	filename
+    736	      0	     64	    800	    320	build/baseline.elf
+    744	      0	     64	    808	    328	build/optimized.elf
+    772	      0	     64	    836	    344	build/ijk.elf
+    776	      0	     64	    840	    348	build/ikj.elf
+    744	      0	     64	    808	    328	build/jik.elf
+    764	      0	     64	    828	    33c	build/jki.elf
+    752	      0	     64	    816	    330	build/kij.elf
+    752	      0	     64	    816	    330	build/kji.elf
+    920	      0	    256	   1176	    498	build/large8.elf

@@ -1,0 +1,24 @@
+{
+  "compiler": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+  "flags": [
+    "-march=rv32i",
+    "-mabi=ilp32",
+    "-O2",
+    "-nostdlib",
+    "-ffreestanding",
+    "-fno-builtin",
+    "-fno-stack-protector",
+    "-msmall-data-limit=0",
+    "-Wl,--no-relax",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-T",
+    "software/linker.ld"
+  ],
+  "sizes": [
+    4,
+    8,
+    16
+  ]
+}
